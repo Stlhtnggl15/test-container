@@ -1,4 +1,7 @@
 # test-container
 Just for exam
 
-run docker build -t test .
+please run this command in shell 
+
+docker build -t test .
+docker run -dp 80:380 test
